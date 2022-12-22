@@ -1,0 +1,31 @@
+/* services styling */
+.h-secondary{
+    font-size: 2rem;
+    text-align: center;
+}
+.services{
+    margin:30px 10px ;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .box{
+    border: 3px solid brown;
+    border-radius: 30px;
+    background-color:gainsboro;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 23px;
+    margin: 20px 30px;
+    text-align: center;
+}
+.services .box img{
+    display: block;
+    height: 140px;
+    margin: auto;
+}
+.discription{
+    font-size: 1rem;
+}

@@ -1,0 +1,45 @@
+/* home styling */
+.home{
+    display: flex;
+    flex-direction: column;
+    height:395px ;
+    justify-content: centre;
+    align-items: centre;
+}
+.h-primary{
+    font-size: 3rem;
+    text-align: center;
+}
+.home h1{
+    padding: 50px 0;
+    color: white;
+}
+.home p{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    background: url('../mediterranean-cuisine-g0bc952f4a_1920.jpg') no-repeat center center/cover;
+    height: 370px;
+    width: 100%;
+    opacity: 2.0;
+    z-index: -1;
+}

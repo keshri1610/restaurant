@@ -1,0 +1,35 @@
+/* clients styling */
+.clients::before{
+    content: "";
+    position: absolute;
+    background: url('../clients\ background.jpg') no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2.0;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+#img{
+    margin: 24px 20px;
+}
+.logo1{
+    width: 40vh;
+    height: 10vh;
+}
+.logo2{
+    width: 20vh;
+    height: 15vh;
+}
+.logo3{
+    width: 30vh;
+    height: 10vh;
+}
+.logo4{
+    width: 20vh;
+    height: 20vh;
+}
